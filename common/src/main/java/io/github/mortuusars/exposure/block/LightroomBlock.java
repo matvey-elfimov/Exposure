@@ -148,6 +148,10 @@ public class LightroomBlock extends Block implements EntityBlock {
             }
         }
     }
+    
+     @Override public float getAmbientOcclusionLightValue ( BlockState state , IBlockReader worldIn , BlockPos pos ) 
+        return 1 ;
+    }
 
     @Nullable
     @Override
